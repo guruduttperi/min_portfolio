@@ -681,12 +681,32 @@ body,
 .bkg-gradient-great-whale{
 	background-image: linear-gradient(125deg, #a3bded 0%, #6991c7 100%) !important;
 }
+
+.bkg-gradient-great-whale2{
+	background-image: linear-gradient(125deg, #bac9f1 0%, #aacdfe 100%) !important;
+}
+
+.bkg-wavy-blue{
+background-image: linear-gradient(to right, rgb(91, 134, 229), rgb(54, 209, 220)) !important;
+}
+
 .bkg-gradient-purple-haze{
 	background-image: linear-gradient(125deg, #6586f6 0%, #8b6ced 100%) !important;
 }
 .bkg-gradient-night-shade{
 	background-image: radial-gradient(circle farthest-side at right bottom,#f8cdda 5%,#f8cdda 25%,#1d2b64 80%,#0e153a 98%) !important;
 }
+
+.bkg-gradient-homespaces{
+  background-image: linear-gradient(to right, #dc2430, #7b4397) !important;
+
+}
+
+.color-gradient-homespaces{
+  background-image: linear-gradient(to right, #dc2430, #7b4397) !important;
+
+}
+
 .color-gradient-heavy-rain{
 	background-image: linear-gradient(125deg, #cfd9df 0%, #e2ebf0 100%) !important;
 }
@@ -714,6 +734,7 @@ body,
 .color-gradient-night-shade{
 	background-image: radial-gradient(circle farthest-side at right bottom,#f8cdda 5%,#f8cdda 25%,#1d2b64 80%,#0e153a 98%) !important;
 }
+
 [class*="color-gradient-"]{
 	-webkit-background-clip: text;
 			background-clip: text;
