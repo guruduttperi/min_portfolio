@@ -659,6 +659,73 @@ body,
 	color: #717dfb;
 }
 
+/* homespaces red */
+
+.bkg-hred{
+  background-color: 	#EE555B;
+  border-color: #EE555B;
+}
+
+.color-hred{
+  color: #EE555B;
+}
+
+.bkg-hover-hred:hover,
+.bkg-focus-hred:focus{ /* #MOD */
+	background-color: #EE555B;
+	border-color: #EE555B;
+}
+
+.border-hred{
+  	border-color: #EE555B;
+}
+
+
+/* rescue me blue */
+
+.bkg-resblu{
+  background-color: 	#147ec2;
+  border-color: #147ec2;
+}
+
+.color-resblu{
+  color: #147ec2;
+}
+
+.bkg-hover-resblu:hover,
+.bkg-focus-resblu:focus{ /* #MOD */
+	background-color: #147ec2;
+	border-color: #147ec2;
+}
+
+.border-resblu{
+  	border-color: #147ec2;
+}
+
+
+
+/* excel green */
+
+.bkg-exgreen{
+  background-color: 	#2c724b;
+  border-color: #2c724b;
+}
+
+.color-exgreen{
+  color: #2c724b;
+}
+
+.bkg-hover-exgreen:hover,
+.bkg-focus-exgreen:focus{ /* #MOD */
+	background-color: #2c724b;
+	border-color: #2c724b;
+}
+
+.border-exgreen{
+  	border-color: #2c724b;
+}
+
+
 /* Gradients */
 .bkg-gradient-heavy-rain{
 	background-image: linear-gradient(125deg, #cfd9df 0%, #e2ebf0 100%) !important;
@@ -699,6 +766,11 @@ background-image: linear-gradient(to right, rgb(91, 134, 229), rgb(54, 209, 220)
 
 .bkg-gradient-homespaces{
   background-image: linear-gradient(to right, #dc2430, #7b4397) !important;
+
+}
+
+.bkg-gradient-homered{
+  background-image: linear-gradient(to right, #dc2430, #ff3933) !important;
 
 }
 
