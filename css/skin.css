@@ -726,6 +726,29 @@ body,
 }
 
 
+
+/* gstar yellow */
+
+.bkg-gstar{
+  background-color: 	#ffb82b;
+  border-color: #ffb82b;
+}
+
+.color-gstar{
+  color: #ffb82b;
+}
+
+.bkg-hover-gstar:hover,
+.bkg-focus-gstar:focus{ /* #MOD */
+	background-color: #ffb82b;
+	border-color: #ffb82b;
+}
+
+.border-gstar{
+  	border-color: #ffb82b;
+}
+
+
 /* Gradients */
 .bkg-gradient-heavy-rain{
 	background-image: linear-gradient(125deg, #cfd9df 0%, #e2ebf0 100%) !important;
