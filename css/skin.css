@@ -830,6 +830,19 @@ background-image: linear-gradient(to right, rgb(91, 134, 229), rgb(54, 209, 220)
 	background-image: radial-gradient(circle farthest-side at right bottom,#f8cdda 5%,#f8cdda 25%,#1d2b64 80%,#0e153a 98%) !important;
 }
 
+.color-gradient-menu-blue{
+  background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.bkg-gradient-menu-blue{
+  background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 [class*="color-gradient-"]{
 	-webkit-background-clip: text;
 			background-clip: text;
@@ -3921,7 +3934,7 @@ hr,
 /* Shop Overlay Tags */
 .shop .products .product .onsale,
 .single-product .product .onsale{
-	background-color: #6773f1;
+	background-color: #00000000;
 }
 .shop .products .product .outofstock,
 .single-product .product .outofstock{
@@ -4912,3 +4925,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/generic/box-3@2x.jpg);
 	}
 }
+
+
+
+/* Custom Classes */
