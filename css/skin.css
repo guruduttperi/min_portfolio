@@ -135,19 +135,19 @@ h6{
 }
 .footer-light .widget-title,
 .footer-light .widget-title a{
-	color: #16161d;
+	color: #000000;
 }
 .sidebar .widget-title,
 .sidebar .widget-title a{
 	font-size: 1.4rem;
 	font-weight: 400;
 	text-transform: none;
-	color: #16161d;
+	color: #000000;
 }
 .side-navigation-wrapper .widget-title,
 .side-navigation-wrapper .widget-title a{
 	font-size: 1.4rem;
-	color: #212325;
+	color: #000000;
 }
 .overlay-navigation-wrapper .widget-title,
 .overlay-navigation-wrapper .widget-title a{
@@ -730,22 +730,44 @@ body,
 /* gstar yellow */
 
 .bkg-gstar{
-  background-color: 	#ffb82b;
-  border-color: #ffb82b;
+  background-color: #f9a061;
+  border-color: #f9a061;
 }
 
 .color-gstar{
-  color: #ffb82b;
+  color: #f9a061;
 }
 
 .bkg-hover-gstar:hover,
 .bkg-focus-gstar:focus{ /* #MOD */
-	background-color: #ffb82b;
-	border-color: #ffb82b;
+	background-color: #f9a061;
+	border-color: #f9a061;
 }
 
 .border-gstar{
-  	border-color: #ffb82b;
+  	border-color: #f9a061;
+}
+
+
+/* pasred */
+
+.bkg-pasred{
+  background-color: 	rgb(247,56,89);
+  border-color: rgb(247,56,89);
+}
+
+.color-pasred{
+  color: rgb(247,56,89);
+}
+
+.bkg-hover-pasred:hover,
+.bkg-focus-pasred:focus{ /* #MOD */
+	background-color: rgb(247,56,89);
+	border-color: rgb(247,56,89);
+}
+
+.border-pasred{
+  	border-color: rgb(247,56,89);
 }
 
 
@@ -3557,7 +3579,7 @@ textarea.required-field{
 .footer-light textarea:focus{
 	background-color: #fff;
 	box-shadow: none;
-	color: #6773f1;
+	color: #f73859;
 }
 .footer-light .form-element.required-field,
 .footer-light textarea.required-field{
@@ -3568,7 +3590,7 @@ textarea.required-field{
 .footer-light textarea.required-field:focus{
 	background-color: #fff;
 	box-shadow: none;
-	color: #6773f1;
+	color: #f73859;
 }
 @media only screen and (max-width: 768px){
 	.footer .signup-form-container .button{
@@ -3579,19 +3601,19 @@ textarea.required-field{
 	color: #666;
 }
 .footer :focus::-webkit-input-placeholder{
-	color: #6773f1;
+	color: #f73859;
 }
 .footer ::-moz-placeholder{
 	color: #666;
 }
 .footer :focus::-moz-placeholder{
-	color: #6773f1;
+	color: #f73859;
 }
 .footer :-ms-input-placeholder{
 	color: #666;
 }
 .footer :focus:-ms-input-placeholder{
-	color: #6773f1;
+	color: #f73859;
 }
 
 /* Disabled */
@@ -3637,7 +3659,7 @@ textarea.required-field{
 }
 .footer-top a:not(.button){
 	font-size: 1.4rem;
-	color: #16161d;
+	color: #000000;
 }
 .footer-bottom a{
 	font-size: 1.2rem;
@@ -3664,7 +3686,7 @@ textarea.required-field{
 /* Footer Background */
 .footer{
 	width: 100%;
-	background: #16161d;
+	background: #000000;
 	color: #fff;
 	z-index: 1;
 }
