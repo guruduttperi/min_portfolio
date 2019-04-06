@@ -2149,8 +2149,8 @@ width: 2px;
 .featured-media,
 .full-width-slider,
 .parallax{
-	height: 60rem;
-	padding: 0;
+	height: 50rem;
+	padding: 0rem;
 }
 .window-height{
 	height: 100vh;
