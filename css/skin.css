@@ -49,6 +49,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 
+
 body{
 	font-family: 'Inter', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
@@ -176,7 +177,7 @@ h6{
 /* Lead */
 .lead,
 blockquote.large{
-	font-size: 1.995rem;
+	font-size: 1.899rem;
 	font-weight: 400;
 }
 
@@ -770,6 +771,27 @@ body,
   	border-color: rgb(247,56,89);
 }
 
+/* Eigengrau */
+
+.bkg-eigen{
+  background-color: 	#16161d;
+  border-color: #16161d;
+}
+
+.color-eign{
+  color: #16161d;
+}
+
+.bkg-hover-eigen:hover,
+.bkg-focus-eigen:focus{ /* #MOD */
+	background-color: #16161d;
+	border-color: #16161d;
+}
+
+.border-eigen{
+  	border-color: #16161d;
+}
+
 
 /* Gradients */
 .bkg-gradient-heavy-rain{
@@ -881,13 +903,13 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 .fullscreen-section .fullscreen-inner,
 .pagination-2 .pagination-next,
 .row.xlarge{
-	padding-top: 11rem;
-	padding-bottom: 11rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 .replicable-content,
 .row.xlarge.replicable-content{
-	padding-top: 11rem;
-	padding-bottom: 8rem;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 .section-block.slanted-top{
 	overflow: visible;
@@ -897,7 +919,7 @@ background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, F
 }
 .section-block.slanted-top:before{
 	width: 100%;
-	height: 35rem;
+	height: 30rem;
 	display: block;
 	content: '';
 	position: absolute;
@@ -3659,7 +3681,7 @@ textarea.required-field{
 }
 .footer-top a:not(.button){
 	font-size: 1.4rem;
-	color: #000000;
+	color: #16161d;
 }
 .footer-bottom a{
 	font-size: 1.2rem;
@@ -4951,3 +4973,17 @@ only screen and (				min-resolution: 2dppx) {
 
 
 /* Custom Classes */
+
+.post{
+  -webkit-transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+  -moz-transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+  transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+  color: #4B4F56;
+  z-index: 1;
+}
+
+.post:hover {
+  box-shadow: 0 30px 30px rgba(0,0,0,.12);
+  transform: translate(0,-5px);
+  transition-delay: 0s !important;
+}
